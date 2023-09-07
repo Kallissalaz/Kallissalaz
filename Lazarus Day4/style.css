@@ -1,0 +1,37 @@
+{box-sizing:border-box;}
+.title{
+    background-color: aquamarine;
+color: black;
+padding:1em;
+text-align: center;
+}
+.img1,.img2, .img3,.img4{
+    width: 45%;
+    margin: 2%;
+}
+.img1{
+    border: 15px;
+}
+.img1{
+    border-radius: 30%;
+}
+.img3{
+    border-color: blue 5px inset;
+    padding: 1em;
+    background-color: aquamarine;
+}
+.img4{
+    border-color: blue 5px inset;
+    padding: 1em;
+    background-color: aquamarine; 
+}
+.img5{
+    border-color: rgb(92, 197, 7) 5px inset;
+    padding: 1em;
+    background-color: rgb(174, 9, 224); 
+}
+.img6{
+    border-color: rgb(228, 10, 10) 5px inset;
+    padding: 1em;
+    background-color: rgb(235, 220, 9); 
+}
