@@ -1,0 +1,84 @@
+*{ box-sizing: border-box;}
+html{
+    scroll-behavior: smooth;
+}
+.navTabs{
+    background-color: skyblue;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+}
+.links{
+    display: inline-block;
+    padding: 1em 3em;
+    color: bisque;
+}
+.links:hover{
+    color: cornflowerblue;
+    background-color: rgb(79, 231, 173);
+    font-weight: bolder;
+}
+/* ----- INTRO IMAGE -----*/
+.intro{
+    box-shadow: 2px 2px 5px royalblue;
+    margin: 7em auto;
+    border-radius: 1em;
+    overflow: hidden;
+    position: relative;
+    width: 60%;
+}
+img{
+    width: 100%;
+    display: block;
+}
+.intro_pg{
+    position: absolute;
+    top: 0%;
+    left: 10%;
+    right: 10%;
+    text-align: center;
+    font-size: 3.5em;
+    color: rgb(45, 210, 252);
+    font-weight: 100;
+    font-family: monospace;
+}
+/*-------- CARDS --------*/
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    width:29%;
+    box-shadow: 2px 2px 5px rgb(6, 81, 124);
+    border-radius: 0.2em;
+    overflow: hidden;
+    margin: 2%;
+    position: relative;
+}
+.cardTitle{
+    padding: 0.5em 1em;
+    color: rgb(89, 137, 211);
+}
+.cardIntro{
+    padding: 0.5em 1em;
+    color: rgb(149, 176, 192);
+    margin-bottom: 5em;
+}
+.cardLink{
+    position: absolute;
+    bottom: 0%;
+    background-color: rgb(24, 44, 216);
+    color: rgb(11, 157, 241);
+    display: inline-block;
+    left: 0%;
+    right: 0%;
+    padding: 1em;
+    text-align: center;
+}
+.cardLink:hover{
+    background-color: lightblue;
+    color: rgb(4, 0, 252);
+    text-decoration: none;
+    font-weight: bolder;
+}
