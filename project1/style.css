@@ -1,0 +1,38 @@
+*{box-sizing: border-box;
+}
+html{scroll-behavior: smooth;
+}
+.navBar{
+    background-color: rgb(178, 209, 182);
+    color: black;
+}
+.nav_link{
+    color: green;
+    display: inline-block;
+    padding: 1em 2em;
+    font-size: 1.3em;
+    font-family:italic;
+}
+.nav_link:hover{
+color: black;
+background-color: rgb(255, 255, 99);
+font-weight: bolder;
+font-family: fantasy;
+}
+.Homepage{
+    font-size: 1.5em;
+    color: burlywood;
+    font-family:italic;
+}
+.intro{
+    font-size:2em;
+    color: rgb(0, 0, 0);
+    font-family:monospace;
+}
+.ochointro{
+    margin: 3em;
+}
+.FamSpot{
+    background-color: rgb(178, 209, 182);
+    color: black;
+    font-family: fantasy;}
