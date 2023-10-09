@@ -10,7 +10,7 @@ html{scroll-behavior: smooth;
     color: green;
     display: inline-block;
     padding: 1em 2em;
-    font-size: 1.3em;
+    font-size: 2em;
     font-family:italic;
 }
 .nav_link:hover{
@@ -35,4 +35,54 @@ font-family: fantasy;
 .FamSpot{
     background-color: rgb(178, 209, 182);
     color: black;
-    font-family: fantasy;}
+    font-weight: lighter;
+    font-size: 2.9em;
+    }
+.contanier{
+    margin: 100px auto;
+    width: 75%;
+}
+.img1{
+    max-width: 670px;
+    float: left;
+    border-radius: 10px;
+    margin: 3em;
+}
+.mgs1{
+    font-size: 45px;
+    padding: 5px;
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+    font-family: fantasy;
+}
+.text{
+    font-size: 23px;
+    margin-bottom: 3em;
+    color: green;
+    font-family:Times;
+}
+.cardlink{
+    font-size: 23px;
+    color: blue;
+    font-weight: bold;
+}
+.img2{
+    width: 670px;
+    float: left;
+    border-radius: 10px;
+    margin: 3em;
+}
+.mgs2{
+    margin-top: 3.7em;
+    font-size: 45px;
+    padding: 5px;
+    margin-bottom:0.5em;
+    font-family: fantasy;
+}
+.mgs3{
+    margin-top: 3em;
+    font-size: 45px;
+    padding: 5px;
+    margin-bottom:0.5em;
+    font-family: fantasy;
+}
