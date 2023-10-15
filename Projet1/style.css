@@ -1,0 +1,109 @@
+*{box-sizing: border-box;
+}
+html{scroll-behavior: smooth;
+}
+.navBar{
+    background-color: rgb(178, 209, 182);
+    color: black;
+}
+.nav_link{
+    color: green;
+    display: inline-block;
+    padding: 1em 2em;
+    font-size: 1.5em;
+    font-family:italic;
+}
+.nav_link:hover{
+color: black;
+background-color: rgb(255, 255, 99);
+font-weight: bolder;
+font-family: fantasy;
+}
+.Homepage{
+    font-size: 1.5em;
+    color: burlywood;
+    font-family:italic;
+}
+.intro{
+    font-size:2em;
+    color: rgb(0, 0, 0);
+    font-family:monospace;
+}
+.ochointro{
+    width: 40%;
+    margin: 3em;
+    display: flex;
+    display: wrap;
+}
+.FamSpot{
+    background-color: rgb(178, 209, 182);
+    color: black;
+    font-weight: lighter;
+    font-size: 2.9em;
+    }
+.info{
+    width: 75%;
+}
+.img1{
+   width: 75%;
+   display: flex; 
+   display:wrap;
+   border-radius: 3em;
+    overflow: hidden;
+    transition: ease 300ms;
+}
+.img1:hover{
+    transform:  scale(1.02);
+     }
+.mgs1{
+    font-size: 45px;
+    padding: 5px;
+    margin-top: 0.8em;
+    margin-bottom: 0.5em;
+    font-family: fantasy;
+    background-color: bisque;
+}
+.text{
+    font-size: 23px;
+    margin-bottom: 3em;
+    color: green;
+    font-family:Times;
+}
+.cardlink{
+    font-size: 23px;
+    color: blue;
+    font-weight: bold;
+}
+.img2{
+    width: 55%;
+    display: flex; 
+    display:wrap;
+    border-radius: 3em;
+    box-shadow: 1px 1px 5px blue;
+    overflow: hidden;
+    transition: ease 300ms;
+ }
+ .img2:hover{
+box-shadow: 0px 0px 5px 3px greenyellow;
+transform:  scale(1.02);
+ }
+.mgs2{
+    margin-top: 1em;
+    font-size: 45px;
+    padding: 5px;
+    margin-bottom:0.5em;
+    font-family: fantasy;
+    background-color: bisque;
+}
+.mgs3{
+    margin-top: 1em;
+    font-size: 45px;
+    padding: 5px;
+    margin-bottom:0.5em;
+    font-family: fantasy;
+    background-color: bisque;
+}
+.link{
+    color: green;
+    background-color: beige;
+}
