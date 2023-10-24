@@ -1,104 +1,249 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Kallissa Lazarus</title>
-  </head>
-  <body>
-    <h1 class="display-3 text-info bg-primary"> Kallissa Lazarus</h1>
-    <p> Use of a mark in <b class="mark">Bootstrap</b> </p>
-    <p>Use <kbd style="background-color: palevioletred;">Ctrl + p </kbd> to open the Print dialog box.</p>
-    <p class="blockquote-footer">From Wekipedia.org website</p>
-    <figure class="p-5">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <title>Kallissa Lazarus</title>
+</head>
+
+<body>
+  <h1 class="display-3 text-info bg-primary"> Kallissa Lazarus</h1>
+  <p> Use of a mark in <b class="mark">Bootstrap</b> </p>
+  <p>Use <kbd style="background-color: palevioletred;">Ctrl + p </kbd> to open the Print dialog box.</p>
+  <p class="blockquote-footer">From Wekipedia.org website</p>
+  <figure class="p-5">
     <img src="images/michael-b-insta.png" alt="MBJ" width="28%" class="rounded">
     <img src="images/michael-b-insta.png" alt="MBJ" width="28%" class="rounded-circle">
     <img src="images/michael-b-insta.png" alt="MBJ" width="28%" class="img-thumbnail m-3">
-</figure>
-<h2 class="bg-warning text-primary text-center p-3">Basic List Groups</h2>
-    <h3>Hair Shopping</h3>
-    <ul class="list-group m-3">
-      <li class="list-group-item">Wigs</li>
-      <li class="list-group-item">Gel</li>
-      <li class="list-group-item active">Combs</li>
+  </figure>
+  <h2 class="bg-warning text-primary text-center p-3">Basic List Groups</h2>
+  <h3>Hair Shopping</h3>
+  <ul class="list-group m-3">
+    <li class="list-group-item">Wigs</li>
+    <li class="list-group-item">Gel</li>
+    <li class="list-group-item active">Combs</li>
+  </ul>
+  <h2 class="bg-warning text-primary text-center p-3">Dropdown</h2>
+  <div class="dropdown">
+    <button type="button" class="dropdown-toggle btn btn-secondary" data-bs-toggle="dropdown"> CUNY Community
+      College</button>
+    <ul class="dropdown-menu">
+      <li class="bg-dark">
+        <h5 class="dropdown-header">Queens College</h5>
+      </li>
+      <li> <a href="https://www.qcc.cuny.edu/" target="_blank" rel="noopener noreferrer" class="dropdown-item"> QCC</a>>
+      </li>
+      <li> <a href="https://www.bmcc.cuny.edu/" target="_blank" rel="noopener noreferrer" class="dropdown-item"> BMCC
+        </a>></li>
+
+      <li class="bg-dark">
+        <h5 class="dropdown-header">Queens College</h5>
+      </li>
+      <li> <a href="https://www.laguardia.edu/" target="_blank" rel="noopener noreferrer" class="dropdown-item"> La
+          Guardia</a>></li>
     </ul>
-    <h2 class="bg-warning text-primary text-center p-3">Dropdown</h2>
-    <div class="dropdown">
-      <button type="button" class="dropdown-toggle btn btn-secondary" data-bs-toggle="dropdown"> CUNY Community College</button>
-        <ul class="dropdown-menu">
-          <li class="bg-dark"><h5 class="dropdown-header">Queens College</h5></li>
-          <li> <a href="https://www.qcc.cuny.edu/" target="_blank" rel="noopener noreferrer" class="dropdown-item"> QCC</a>></li>
-          <li> <a href="https://www.bmcc.cuny.edu/" target="_blank" rel="noopener noreferrer"class="dropdown-item"> BMCC </a>></li>
-         
-          <li class="bg-dark"><h5 class="dropdown-header">Queens College</h5></li>
-          <li> <a href="https://www.laguardia.edu/" target="_blank" rel="noopener noreferrer"class="dropdown-item"> La Guardia</a>></li>
-        </ul>
-    </div>
-
-    <h2 class="bg-warning text-primary text-center p-3">Group Dropdown menu</h2>
-<div class="btn-group m-3">
-<button type="button" class="btn-danger btn">Home</button>
-<button type="button" class="btn-danger btn" data-bs-toggle="dropdown">CUNY</button>
-<button type="button" class="btn-danger btn">Boostarp images</button>
-<ul class="dropdown-menu">
-  <li class="bg-dark"><h5 class="dropdown-header">Queens College</h5></li>
-  <li> <a href="https://www.qcc.cuny.edu/" target="_blank" rel="noopener noreferrer" class="dropdown-item"> Hair Place</a>></li>
-  <li> <a href="https://www.bmcc.cuny.edu/" target="_blank" rel="noopener noreferrer"class="dropdown-item"> Hair Place</a>></li>
- 
-  <li class="bg-dark"><h5 class="dropdown-header">Queens College</h5></li>
-  <li> <a href="https://www.laguardia.edu/" target="_blank" rel="noopener noreferrer"class="dropdown-item"> Hair Place</a>></li>
-</ul>
-</div>
-
-<h2 class="bg-warning text-primary text-center p-3">Collapsible</h2>
-<div class="btn-group m-3">
-  <button type="button" class="btn btn-info" data-bs-toggle="collapse" data-bs-toggle="#MBJ">Info On MBJ</button>
-  <button type="button" class="btn btn-info" data-bs-toggle="collapse" data-bs-toggle="#KP">Info On Keith Powers</button>
-  <button type="button" class= "btn btn-info"data-bs-toggle="collapse" data-bs-toggle="#mendes">Info On Shawn Mendes</button>
-  <button type="button" class="btn btn-info"data-bs-toggle="collapse" data-bs-toggle="#maluma">Info On Maluma</button>
-
-  <div id="MBJ" class="collapse">
-<p class="p-3">Actor Michael Bakari Jordan hails from America. His most well-known performances were
-   boxer Adonis Creed in Creed, and Oscar Grant, the shooting victim, in the drama Fruitvale Station.</p>
-<img src="images/michael-b-insta.png" alt="image of MBJ model" width="50%" class="mx-auto d-block rounded-circle">
-<p class="blockquote-footer m-4">Photo Of Michael b Jordon</p>
-</div>
-
-<div id="KP" class="collapse">
-  <p class="p-3">American actor and model Keith Tyree Powers was born on August 22, 1992. 
-    In the BET miniseries The New Edition Story and the movie Straight Outta Compton, he played Tyree and Ronnie DeVoe, respectively. 
-    California's Sacramento is in the United States.</p>
-  <img src="images/keith powers.jpg" alt="image of keith powers model" width="50%" class="mx-auto d-block rounded-circle">
-  <p class="blockquote-footer m-4">Photo Of Keith Powers</p>
   </div>
 
-  <div id="mendes" class="collapse">
-    <p class="p-3">Shawn mendes born in canda and he was passionate about being a singer since forever. 
-      Shawn Mendes become a great singer throughout the years with many albums.</p>
-    <img src="images/Shawn-Mendes.jpg" alt="image of shaen mendes  model" width="50%" class="mx-auto d-block rounded-circle">
-    <p class="blockquote-footer m-4">Photo Of Keith Powers</p>
+  <h2 class="bg-warning text-primary text-center p-3">Group Dropdown menu</h2>
+  <div class="btn-group m-3">
+    <button type="button" class="btn-danger btn">Home</button>
+    <button type="button" class="btn-danger btn" data-bs-toggle="dropdown">CUNY</button>
+    <button type="button" class="btn-danger btn">Boostarp images</button>
+    <ul class="dropdown-menu">
+      <li class="bg-dark">
+        <h5 class="dropdown-header">Queens College</h5>
+      </li>
+      <li> <a href="https://www.qcc.cuny.edu/" target="_blank" rel="noopener noreferrer" class="dropdown-item"> Hair
+          Place</a>></li>
+      <li> <a href="https://www.bmcc.cuny.edu/" target="_blank" rel="noopener noreferrer" class="dropdown-item"> Hair
+          Place</a>></li>
+
+      <li class="bg-dark">
+        <h5 class="dropdown-header">Queens College</h5>
+      </li>
+      <li> <a href="https://www.laguardia.edu/" target="_blank" rel="noopener noreferrer" class="dropdown-item"> Hair
+          Place</a>></li>
+    </ul>
+  </div>
+
+  <h2 class="bg-warning text-primary text-center p-3">Collapsible</h2>
+  <div class="btn-group m-3">
+    <button type="button" class="btn btn-info" data-bs-toggle="collapse" data-bs-toggle="#MBJ">Info On MBJ</button>
+    <button type="button" class="btn btn-info" data-bs-toggle="collapse" data-bs-toggle="#KP">Info On Keith
+      Powers</button>
+    <button type="button" class="btn btn-info" data-bs-toggle="collapse" data-bs-toggle="#mendes">Info On Shawn
+      Mendes</button>
+    <button type="button" class="btn btn-info" data-bs-toggle="collapse" data-bs-toggle="#maluma">Info On
+      Maluma</button>
+</div>
+    <div id="MBJ" class="collapse">
+      <p class="p-3">Actor Michael Bakari Jordan hails from America. His most well-known performances were
+        boxer Adonis Creed in Creed, and Oscar Grant, the shooting victim, in the drama Fruitvale Station.</p>
+      <img src="images/michael-b-insta.png" alt="image of MBJ model" width="50%" class="mx-auto d-block rounded-circle">
+      <p class="blockquote-footer m-4">Photo Of Michael b Jordon</p>
+    </div>
+
+    <div id="KP" class="collapse">
+      <p class="p-3">American actor and model Keith Tyree Powers was born on August 22, 1992.
+        In the BET miniseries The New Edition Story and the movie Straight Outta Compton, he played Tyree and Ronnie
+        DeVoe, respectively.
+        California's Sacramento is in the United States.</p>
+      <img src="images/keith powers.jpg" alt="image of keith powers model" width="50%"
+        class="mx-auto d-block rounded-circle">
+      <p class="blockquote-footer m-4">Photo Of Keith Powers</p>
+    </div>
+
+    <div id="mendes" class="collapse">
+      <p class="p-3">Shawn mendes born in canda and he was passionate about being a singer since forever.
+        Shawn Mendes become a great singer throughout the years with many albums.</p>
+      <img src="images/Shawn-Mendes.jpg" alt="image of shaen mendes  model" width="50%"
+        class="mx-auto d-block rounded-circle">
+      <p class="blockquote-footer m-4">Photo Of Keith Powers</p>
     </div>
 
     <div id="maluma" class="collapse">
-      <p class="p-3">Colombian rapper and musician Juan Luis Londoño Arias (born January 28, 1994) goes by the stage name Maluma. 
+      <p class="p-3">Colombian rapper and musician Juan Luis Londoño Arias (born January 28, 1994) goes by the stage
+        name Maluma.
         His early interest in music began when he was sixteen years old. He was born and reared in Medellín.</p>
       <img src="images/maluma.jpg" alt="image of maluma model" width="50%" class="mx-auto d-block rounded-circle">
       <p class="blockquote-footer m-4">Photo Of maluma</p>
-      </div>
-    <!-- Optional JavaScript; choose one of the two! -->
+    </div>
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
+    <h1 class="bg-light mt-5 p-3">Layouts</h1>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-5 bg-primary p-3 m-4"><img src="images/Shawn-Mendes.jpg" width="100%"></div>
+        <div class="col-5 bg-dark p-3 m-4 text-light rounded">
+          <h2>~Shawn Mendes~</h2>
+          <p>Columun Right</p>
+        </div>
+      </div>
+    </div>
+
+    <h1 class="bg-light mt-5 p-3">Cards</h1>
+    <div class="container-fluid">
+    <div class="row">
+      <section class="card col-lg-3 m-4 col-sm-10 m-lg-6">
+        <div class="card-header">
+          <h2>Maluma</h2>
+          <p>Artist</p>
+        </div>
+        <div class="card-body">
+          <img src="images/maluma.jpg" class="card-img img-fluid">
+          <p class="card-text">Juan Luis Londoño Arias (born 28 January 1994), known professionally as Maluma, is a Colombian rapper and singer. Born and raised in Medellín, he developed an interest in music at a young age, recording songs since age sixteen. 
+            He released his debut album, Magia, a year later in 2012.</p>
+            </div>
+        <div class="card-footer">
+          <a href="" class="card-link">About Me</a>
+          <a href="" class="card-link">Learn More</a>
+          <a href="" class="card-link">Client feedbacks</a>
+        </div>
+      </section>
+      <section class="card col-lg-3 col-sm-10 m-4 bg-info text-light">
+      <img src="images/keith powers.jpg" class="card-img-top" width=100%>
+       <div class="card-body">
+      <h2 class=" card-title"><i>Keith Powers</i></h2>
+      <p class="card-subtitle">Actor</p>
+      <p class="card-text mt-2">Keith was cast in The Perfect Find in December 2020. In an interviewwith Netflix’s TUDUM, Keith said that he wants to prove his acting talent to everyone that watches his film. “I hope people trust me as an actor. I always just feel like,
+         Do I belong here? Can I have a place in this industry? Do I have a lane?</p>
+         <a href="" class="card-link">About Me</a>
+         <a href="" class="card-link">Learn More</a>
+         <a href="" class="card-link">Client feedbacks</a>
+       </div>
+      </section>
+
+      <section class="card col-lg-3 col-sm-10 m-4 bg-warning">
+        <div class="card-body">
+          <img src="images/michael-b-insta.png" class="card-img">
+          <h2 class="card-title">Micheal B Jordon</h2>
+          <p><i class="card-subtitle">Actor</i></p>
+          <p class="card-text">Michael Bakari Jordan is an American actor. He is best known for his film roles as shooting victim Oscar Grant in the drama Fruitvale Station (2013), 
+            boxer Adonis Creed in Creed (2015), and Erik Killmonger in Black Panther (2018), all of which were written and directed by Ryan Coogler. 
+            Jordan reprised his role of Creed in Creed II (2018) and Creed III (2023); the latter also marked his</p>
+          </div>
+            <ul class="list-group list-group-flush">
+            <li><a href="list-group-item" class="card-link">About Me</a></li>
+            <li><a href="list-group-item" class="card-link">Learn More</a></li>
+            <li><a href="list-group-item" class="card-link">Client Feedback</a></li>
+          </ul>
+      </section>
+    </div>
+  </div>
+
+  <h1 class="bg-info mt-5 p-3">Class Activity</h1>
+  <div class="container-fluid">
+  <div class="row">
+    <section class="card col-lg-2 col-sm-6 m-2 bg-info text-light">
+      <img src="images/keith powers.jpg" class="card-img-top" width=100%>
+       <div class="card-body">
+      <h2 class=" card-title"><i>Keith Powers</i></h2>
+      <p class="card-subtitle">Actor</p>
+      <p class="card-text mt-2">Keith was cast in The Perfect Find in December 2020. In an interviewwith Netflix s TUDUM, Keith said that he wants to prove his acting talent to everyone that watches his film. “I hope people trust me as an actor. I always just feel like,
+         Do I belong here? Can I have a place in this industry? Do I have a lane?</p>
+         <a href="" class="card-link">About Me</a>
+         <a href="" class="card-link">Learn More</a>
+         <a href="" class="card-link">Client feedbacks</a>
+       </div>
+      </section>
+      <section class="card col-lg-2 col-sm-6 m-2 bg-info text-light">
+        <img src="images/keith powers.jpg" class="card-img-top" width=100%>
+         <div class="card-body">
+        <h2 class=" card-title"><i>Keith Powers</i></h2>
+        <p class="card-subtitle">Actor</p>
+        <p class="card-text mt-2">Keith was cast in The Perfect Find in December 2020. In an interviewwith Netflix s TUDUM, Keith said that he wants to prove his acting talent to everyone that watches his film. “I hope people trust me as an actor. I always just feel like,
+           Do I belong here? Can I have a place in this industry? Do I have a lane?</p>
+           <a href="" class="card-link">About Me</a>
+           <a href="" class="card-link">Learn More</a>
+           <a href="" class="card-link">Client feedbacks</a>
+         </div>
+        </section>
+        <section class="card col-lg-2 col-sm-6 m-2 bg-info text-light">
+          <img src="images/keith powers.jpg" class="card-img-top" width=100%>
+           <div class="card-body">
+          <h2 class=" card-title"><i>Keith Powers</i></h2>
+          <p class="card-subtitle">Actor</p>
+          <p class="card-text mt-2">Keith was cast in The Perfect Find in December 2020. In an interviewwith Netflixx s TUDUM, Keith said that he wants to prove his acting talent to everyone that watches his film. “I hope people trust me as an actor. I always just feel like,
+             Do I belong here? Can I have a place in this industry? Do I have a lane?</p>
+             <a href="" class="card-link">About Me</a>
+             <a href="" class="card-link">Learn More</a>
+             <a href="" class="card-link">Client feedbacks</a>
+           </div>
+          </section>
+          <section class="card col-lg-2 col-sm-6 m-2
+          
+          bg-info text-light">
+            <img src="images/keith powers.jpg" class="card-img-top" width=100%>
+             <div class="card-body">
+            <h2 class=" card-title"><i>Keith Powers</i></h2>
+            <p class="card-subtitle">Actor</p>
+            <p class="card-text mt-2">Keith was cast in The Perfect Find in December 2020. In an interviewwith Netfli s TUDUM, Keith said that he wants to prove his acting talent to everyone that watches his film. “I hope people trust me as an actor. I always just feel like,
+               Do I belong here? Can I have a place in this industry? Do I have a lane?</p>
+               <a href="" class="card-link">About Me</a>
+               <a href="" class="card-link">Learn More</a>
+               <a href="" class="card-link">Client feedbacks</a>
+             </div>
+            </section>
+</div>
+  </div>
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     -->
-  </body>
+</body>
+
 </html>
