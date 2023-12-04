@@ -13,22 +13,76 @@
 </html>
     <h1 class="title">~About Me~</h1>
     <nav class="navHoz">
-    <a href=""> INTRO</a>
-    <a href="">MY WORKS</a>
-    <a href="">??</a>
+    <a href="#intro" class="nav_link"> INTRO</a>
+    <a href="#MW" class="nav_link">MY WORKS</a>
+    <a href="" class="nav_link">??</a>
     </nav>
 
-    <h1 class="bg-light mt-5 p-3 bgcolor text-center" >~Introduction~</h1>
+    <h1 id="intro" class="bg-light mt-5 p-3 bgcolor text-center" >~Introduction~</h1>
     <div class="container-fluid">
       <div class="row justify-content-center">
         <div class="col-5  p-3 m-4 bgcolor"><img src="images/Picture of me.jpg" width="100%"></div>
         <div class="col-5  p-3 m-4 text-light rounded bgcolor">
-          <h2>~What To Know~</h2>
-          <p>Hello, My Name is Kallissa Lazarus and I'm very adventures. I like exploring new places,food and I think about new career choice I would love to do. I even think about being
-             a Astronaut because just the idea of exploring something new excites me. However in the future I think I will be settling with being a 
-            phlebotomy and a therapist. I like reading, watching scary movies, traveling, listening to music, cooking and shopping.</p>
+          <h2 id="#intro">~What To Know~</h2>
+          <p>Hi, my name is Kallissa and I'm 17 years old I was born in Jamaica,
+             a popular and amazing country with lots of love from its people.
+             Shortly, I hope to be an X-ray tech and a phlebotomist. If you were to ask my friends and family to describe me they would tell you that I am a very funny, loving, and dedicated person but one thing I am not is patient!!. I love to eat and dance my heart away. 
+            But that's not all so follow along for more about me</p>
         </div>
       </div>
     </div>
+
+    <div class="row">
+      <section class="card col-lg-2 col-sm-6 m-2 bg-text text-secondary">
+        <img src="images/Phlebotomy-Training.jpg" class="card-img-top" width=100%>
+        <div class="card-body">
+          <h2 class="card-title"><i>About being a phlebotomist</i></h2>
+          <p class="card-text mt-2"> Studying to be a phlebotomist doesn't require studying in a college however I would like to sstudy this as a minor while I pursue to be a X-ray tech.</p>
+          <!-- Modal trigger 1-->
+          <button type="button" class="btn btn-warning" data-bs-target="#modal1" data-bs-toggle="modal">Learn More</button>
+          <!-- Modal window 1-->
+          <section id="modal1" class="modal face" data-bs-backdrop="static" aria-hidden="true"
+            aria-labelledby="modal1Label">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <header class="modal-header bg-dark text-primary">
+                  <h2 class="modal-title bg-dark" id="modal1Label">How to become a phlebotomist?</h2>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"> </button>
+                </header>
+                <main class="modal-body">
+                  <em class="text-secondary">High School Diploma or GED.
+                    Completion of a Phlebotomy Training Program OR 1 Year of On-The-Job Experience in the Past 3 Years.
+                    30 Successful Blood Draws.
+                    10 Successful Capillary Sticks.
+                    </em>
+                  <figure>
+                    <img src="images/blood qwork.jpg" width="67%" class="rounder m-1">
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h3 class="card-title text-danger">$2580.90</h3>
+                        <p class="text-secondary"><strong>click add to cart</strong></p>
+                        <p class="mt-3 text-danger"><strong>Pick Your Size:</strong></p>
+  
+                        <label for="Small"> Small </label>
+                        <input type="checkbox" name="" id="Small" class="form-check-input">
+  
+                        <label for="Medium"> Medium </label>
+                        <input type="checkbox" name="" id="Medium" class="form-check-input" checked>
+  
+                        <label for="Large">Large</label>
+                        <input type="checkbox" name="" id="Large" class="form-check-input">
+                      </div>
+                    </div>
+                </main>
+                <footer class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <a href="https://www.amazon.com/UGG-Womens-Neumel-Fashion-Chestnut/dp/B077QTP5D8/ref=sr_1_6?crid=2LDWKVT6MET90&keywords=uggs&qid=1699221357&sprefix=uggs%2Caps%2C399&sr=8-6&th=1&psc=1"
+                    target="_blank" rel="noopener noreferrer" class="btn btn-danger">Add To Cart</a>
+                </footer>
+              </div>
+            </div>
+          </section>
+        </div>
+      </section>
 </body>
 </html>
