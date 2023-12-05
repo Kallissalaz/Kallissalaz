@@ -1,30 +1,60 @@
 *{box-sizing: border-box;}
+html{scroll-behavior: smooth;}
 .title{
+    font-size: 2.5em ;
     text-align: center;
+    color: rgb(245, 51, 235);
+    background-color: rgb(202, 177, 212);
+    font-family: serif;
+    transition: ease-in-out 2s;
     padding: 1em;
-    background-color: plum;
+}
+.title:hover{
+    font-family: algerian;
+    color: rgb(175, 67, 197);
+    text-shadow: 1px 1px 5px rgb(141, 133, 133);
 }
 .navHoz{
-    background-color: palevioletred;
+    background-color: plum;
     display: flex;
     flex-wrap: wrap;
 }
 .navHoz a{
-    color: black;
+    color: rgb(245, 51, 235);
     display: inline-block;
     padding: 1em 3em;
     text-decoration: none;
     width: 33.33%;
     text-align: center;
+    font-weight: bolder;
+    font-family: serif;
 }
 .navHoz a:hover{
-    background-color: blueviolet;
+    background-color: rgb(238, 223, 223);
+    font-family: algerian;
     font-weight: bolder;
-    box-shadow: 0px 0px 5px 1px blue;
+    box-shadow: 0px 0px 5px 1px palevioletred;
 }
 .bgcolor {
-    background-color: palevioletred;
+    background-color: rgb(202, 177, 212);
+    font-family: serif;
 }
 .bgcolor2{
     background-color: plum;
+    font-family: serif;
+}
+.introtext{
+    font-size: 1.2em;
+    font-family: serif;
+}
+.If{
+    text-align: center;
+    margin-bottom: auto;
+    background-color: rgb(248, 208, 248);
+    color: rgb(245, 51, 235);
+    font-family: serif;
+}
+.Itoo{
+    background-color: plum;
+    font-family: serif;
 }
