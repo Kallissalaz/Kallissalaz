@@ -58,3 +58,18 @@ html{scroll-behavior: smooth;}
     background-color: plum;
     font-family: serif;
 }
+.mywork{
+    color:  rgb(245, 51, 235);
+    font: bold;
+    font-family: serif;
+    font-size: 2.2em;
+}
+.animation{
+    color:  rgb(245, 51, 235);
+    text-align: center;
+}
+.bgwork{
+    background-color:  rgb(248, 208, 248);
+    border-color:  rgb(248, 208, 248);
+    border-radius: 3.2em;
+}
