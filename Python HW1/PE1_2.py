@@ -1,0 +1,6 @@
+print("Item\tPrice")
+print("apple\t$1.75")
+print("Orange\t$2.25")
+print("Banana\t$3.50")
+print("-------\t------")
+print("Total\t$7.50")
